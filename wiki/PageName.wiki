@@ -54,7 +54,7 @@ The Scratch macro is over written on each record, stop, or playback. If you wish
 
 Recorded keymacs should be edited for accuracy. They may contain misinterpreted or unwanted keystrokes. A '{' brace recorded in a macro, for example, cannot be played back accurately as a character until it's surrounded by escape braces "{{}".
 
-"!", "^", "+", cannot be played back as characters until they too are surrounded by braces; else they play back as the Alt, Ctrl, and Shift prefix modifiers for any key that follows them. Eg., "^c" is not the characters '^' and 'c', but the copy operation Ctrl-C. The character sequence must appear as "{^}c".
+"!", "`^`", `"+", cannot be played back as characters until they too are surrounded by braces; else they play back as the Alt, Ctrl, and Shift prefix modifiers for any key that follows them. Eg., "^c" is not the characters '^' and 'c', but the copy operation Ctrl-C. The character sequence must appear as "{`^`}c".
 
 KeyMacs attempts to determine the intent of the user by surrounding single character occurances of these chars with escape braces, but it's not always correct.
 
@@ -79,7 +79,7 @@ KeySyms which cause movement may contain a numeric parameter. Eg, {RIGHT 4} will
 
 <b>Special keys</b>
 
-!, ^, +, represent the keystrokes Alt, Ctrl, and Shift respectively. They provide a modifier for the character key that follows it. When KeyMacs sees a "!c", it interprets it as an Alt-c; a "+v" as a Shift-v; a "^t" as a Ctrl-t. KeyMacs depresses the modifier key, depresses the char key, releases the char key, then releases the modifier key.
+ !, `^`, +, represent the keystrokes Alt, Ctrl, and Shift respectively. They provide a modifier for the character key that follows it. When KeyMacs sees a "!c", it interprets it as an Alt-c; a "+v" as a Shift-v; a "`^`t" as a Ctrl-t. KeyMacs depresses the modifier key, depresses the char key, releases the char key, then releases the modifier key.
 
 The brace set '{' and '}' are used to delineate special KeySyms. To use them as characters in a macro, they must be surrounded by braces themselves. IE., {{} and {}} correctly represent the left and right brace as characters.
 
@@ -100,9 +100,9 @@ The context {MENU} keysym opens on my Windows XP2 system at coordinates (0,0). I
 
 KeyMacs injects keys into the focused window keyboard buffer. It attempts to start the KeyMac within the window that invoked the menu. But if you're running a "focus follows mouse" system, the mouse may change the window focus during KeyMac execution causing keys to input into the wrong window. Be careful of the mouse pointer location during invocations of the context menu.
 
-On *nix. I have not yet succeeded in moving the mouse pointer back into the window owning the KeyMac when the mouse ends outside the owning window.
+On Linix. I have not yet succeeded in moving the mouse pointer back into the window owning the KeyMac when the mouse ends outside the owning window.
 
-{ASC} is not available for *nix since XWindows does not support it.
+{ASC} is not available for Linix since XWindows does not support it.
 
 
 <b>How do I install it?</b>
@@ -120,7 +120,7 @@ Linux users will need the X11 and Xtst development libraries. These are usually 
 
 <b>KeySym definitions</b>
 
-   ^, !, + are key modifiers representing CTRL, ALT,SHIFT
+   `^`, !, + are key modifiers representing CTRL, ALT,SHIFT
    {ALT UP|DOWN} - Program menu invocation
    {BACKSPACE} or {BS}
    {DEL}
