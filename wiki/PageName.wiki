@@ -1,3 +1,5 @@
+KeyMacs
+
 <b>KeyMacs plugin for CodeBlocks IDE</b>
 
 KeyMacs (or Keyboard Macros) plugin enables Recording, Playback, and editing of keystroke macros.
