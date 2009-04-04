@@ -24,7 +24,7 @@ The KeyMac "{END}{ENTER}//{TAB 2}", for example, will move the cursor to the end
 
 KeyMacs can be created in the KeyMac editor or by way of the "Record Macro" menu. The editor can be accessed via MainMenu => Plugins => KeyMacs => EditMacros.
 
-[http://forums.codeblocks.org/index.php?action=dlattach;topic=9980.0;attach=3188;image&nonsense=something_that_ends_with.png]
+[http://lh3.ggpht.com/_c-XuBU8YTRg/SddRrmO11-I/AAAAAAAAAHs/A_nPNtR9uuA/keymacs102.png&nonsense=something_that_ends_with.png]
 <br/>Image:KeyMacs102.PNG
 
 Within the editor, click the New button. A new empty "Untitled" macro is created. Click on "Untitled" and rename it, for example, MyMac. Hit enter to confirm the rename.
