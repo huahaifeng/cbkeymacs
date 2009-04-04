@@ -33,7 +33,7 @@ Within the editor, click the New button. A new empty "Untitled" macro is created
 
 Enter the above keymac into the right hand text window . Click within the "Menued Macro" check box to cause KeyMacs to add MyMac as an entry on the Pugins=>KeyMacs=>submenu and the CodeBlocks editor context menu.
 
-[http://forums.codeblocks.org/index.php?action=dlattach;topic=9980.0;attach=3190;image&nonsense=something_that_ends_with.png]
+[http://lh5.ggpht.com/_c-XuBU8YTRg/SddRr2eGngI/AAAAAAAAAH0/kDHcPkdgXmM/keymacs103.png&nonsense=something_that_ends_with.png]
 <br/>Image:KeyMacs103.PNG
 
 Within the Command Key edit box, enter the keystrokes "Ctrl-Alt-M". This is the command (hot) keys that will be placed on the menu entry for MyMac. This key sequence should be unique, not conficting with any other menu command key sequence used in the Code::Blocks menu system.
