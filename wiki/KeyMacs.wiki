@@ -117,7 +117,7 @@ Compile KeyMacs for Linux with KeyMacs(unix).cbp. Then copy KeyMacs.dll to .../t
 
 Linux users will need the X11 and Xtst development libraries. These are usually already provided by the distribution. Ubuntu Synaptic provided the following libraries when I searched for xtst: 
 
-[http://picasaweb.google.com/lh/photo/ScChX60HAKwkbBPNjwqDvQ?feat=directlink&nonsense=a.png]
+[http://lh6.ggpht.com/_c-XuBU8YTRg/SddRsE0uf9I/AAAAAAAAAH8/0O9OPjPioZw/s800/keymacs104.png&nonsense=a.png]
 <br/>Image:KeyMacs107.PNG
 
 <b>KeySym definitions</b>
